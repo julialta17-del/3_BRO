@@ -26,4 +26,4 @@ jobs:
       - name: Run bot
         env:
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
-        run: python numero.py
+        run: python Numeros.py
